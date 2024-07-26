@@ -1,0 +1,17 @@
+[Connection]
+IpAddress = "192.168.0.182"
+
+[Process]
+PollingRateMS = 1000
+StandbyOnComputerSleep = true
+PowerOnComputerWake = true
+
+[Options]
+RelativeMode = false
+RelativeModeComputerVolume = 95
+RelativeModeComputerStep = 5
+RelativeModeAvrStep = 2
+MinAvrVolume = 0
+MaxAvrVolume = 98
+SyncMute = true
+AvrInput = "GAME"
